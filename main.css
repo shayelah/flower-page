@@ -1,0 +1,117 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(images/bkg_flowers.png);
+  background-color: #3f2343;
+  padding: 1rem;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 64rem;
+  margin: 0 auto;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 20px black;
+}
+
+header {
+  background-image: url(images/bkg_header.jpg);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 225%;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+nav {
+  background-color: #b04688;
+  border: 2px solid #b04688;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  padding: 1rem; 
+  list-style-type: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: black;
+  border-radius: 2rem;
+  opacity: 55%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.left-column {
+  font-size: 135%;
+  line-height: 1.4;
+  padding: 1rem 2rem;
+}
+
+.pic-right {
+  float: right;
+  border: 5px solid white;
+  box-shadow: 2px 2px 7px black;
+  margin: 0 0 1rem 2rem;
+}
+
+.left-column h2 {
+  font-size: 150%;
+  color: #b04688;
+  border-bottom: 1px solid #b04688;
+}
+
+.right-column {
+  background-color: thistle;
+  padding: 0.5rem;
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 10px black;
+  font-size: 90%;
+  text-align: center;
+  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.right-column h2 {
+  font-size: 175%;
+}
+
+.right-column img {
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #b04688;
+  color: white;
+  padding: 1rem;
+  font-size: 80%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
